@@ -31,8 +31,8 @@ repositories {
     maven {
         url "https://sres.web.boeing.com/artifactory/Maven-Snapshots"
         credentials {
-            username "2056708"
-            password ""
+            username mavenUser
+            password mavenPassword
         }
     }
 }
